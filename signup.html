@@ -72,46 +72,27 @@
       </div>
     </header>
     <!-- end header section -->
-    <!-- slider section -->
-    <section class="slider_section ">
-      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-6 ">
-                  <div class="detail-box">
-                    <h3 style="color: #FFFFFF">
-                      카이스트 걷기 동아리, '걷기'
-                    </h3><br>
-                    <h1>
-                      <strong>404 Page Not Found</strong>
-                    </h1>
-                    <p>
-                      걸음이라는 쉼표를 한 아름 챙겨요, 함께 향유합시다
-                    </p>
-                    <div class="btn-box">
-                      <a href="index.html" class="btn1">
-                        메인 페이지로 ✨
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="img-box">
-                    <img src="images/back.png" width="300px" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe1i_i-3a142Rph5KhhxV8qpnIsR4CIQ4MAGLZspuoLtTg1XQ/viewform?embedded=true" width="640" height="1053" frameborder="0" marginheight="0" marginwidth="0" id="main_img">로드 중…</iframe>
+    <script>
+      var size = {
+        width: window.innerWidth || document.body.clientWidth,
+        height: window.innerHeight || document.body.clientHeight
+      };
+      var main_img = document.getElementById("main_img");
+      main_img.width = size.width;
 
-    </section>
-    <!-- end slider section -->
-  </div>
+      const resizeDom = document.querySelector('.resize-dom');
+      const result = document.querySelector('.result');
 
+      window.addEventListener("resize", function() {
+        var size = {
+          width: window.innerWidth || document.body.clientWidth,
+          height: window.innerHeight || document.body.clientHeight
+        };
+        var main_img = document.getElementById("main_img");
+        main_img.width = size.width;
+      })
+    </script>
   <!-- info section -->
 
   <section class="info_section layout_padding2">
