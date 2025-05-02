@@ -33,20 +33,19 @@
   <link href="css/responsive.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+  <style>
+    .t_page_warningT {
+      font-family: NanumHumanTTFBold;
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-size: larger;
+    }
+  </style>
 
 </head>
 
 <body>
-  <!--TEST PAGE WARNING-->
-  <div id="_test_page_warningT" class="t_page_warningT">
-    '걷기' 다시 영업합니다~ 사이트 업데이트 중...&nbsp;&nbsp;<a href="#" onclick="close_warningT();">❌</a>
-  </div>
-  <script>
-    function close_warningT() {
-      const warningT = document.getElementById("_test_page_warningT");
-      warningT.style.display = "none";
-    }
-  </script>
   <div class="hero_area">
 
     <div class="hero_bg_box">
@@ -57,6 +56,16 @@
 
     <!-- header section strats -->
     <header class="header_section">
+      <!--TEST PAGE WARNING-->
+  <div id="_test_page_warningT" class="t_page_warningT">
+    '걷기' 다시 영업합니다~ 사이트 업데이트 중...&nbsp;&nbsp;<a href="#" onclick="close_warningT();">❌</a>
+  </div>
+  <script>
+    function close_warningT() {
+      const warningT = document.getElementById("_test_page_warningT");
+      warningT.style.display = "none";
+    }
+  </script>
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
