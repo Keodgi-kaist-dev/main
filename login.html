@@ -38,7 +38,16 @@
 </head>
 
 <body style="background-color: #5f87ff;">
-
+  <!--TEST PAGE WARNING-->
+  <div id="_test_page_warningT" class="t_page_warningT">
+    '걷기' 다시 영업합니다~ 사이트 업데이트 중...&nbsp;&nbsp;<a href="#" onclick="close_warningT();">❌</a>
+  </div>
+  <script>
+    function close_warningT() {
+      const warningT = document.getElementById("_test_page_warningT");
+      warningT.style.display = "none";
+    }
+  </script>
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
